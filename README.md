@@ -44,11 +44,11 @@ while (count < 5)
 	      
      for (int p = 0; p < 5; p++) 
      
-                   { 
+      { 
 		   
                           if (finish[p] == 0) 
 			  
-                         { 
+           { 
 			 
 int j; 
 
@@ -72,21 +72,21 @@ for (int k = 0 ; k < 4 ; k++)
   
   found = 1; 
   
-                                           } 
+  } 
 					   
-             } 
+        } 
 	     
-                       } 
+              } 
 		       
                               if (found == 0) 
 			      
-                  { 
+              { 
 		  
                              printf("System is not in safe state\n");
 			     
                              return;
 			     
-        }
+             }
 	
       } 
                 
